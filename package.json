@@ -1,0 +1,29 @@
+{
+  "name": "cpanel-redirection",
+  "version": "0.0.1",
+  "description": "A small, simple web page that redirects the end user to a configured control panel.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://TomAlderson@github.com/TomAlderson/cpanel-redirection.git"
+  },
+  "keywords": [
+    "cpanel",
+    "redirection",
+    "javascript",
+    "js",
+    "html"
+  ],
+  "author": "Thomas Alderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomAlderson/cpanel-redirection/issues"
+  },
+  "homepage": "https://github.com/TomAlderson/cpanel-redirection#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  }
+}
