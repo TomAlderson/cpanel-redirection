@@ -21,3 +21,4 @@ jobs:
         username: tomaldyc
         password: ${{ secrets.ftp_password }}
         server-dir: cpanel.tomaldy.com/public/
+        exclude: 
