@@ -7,11 +7,6 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2.3.2
-
-    - name: 🛠 Installing NPM and using it to install the project dependencies
-      uses: actions/setup-node@v2
-      with:
-        node-version: '12'
     - run: npm install
     
     - name: 📂 Sync files
