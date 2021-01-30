@@ -5,8 +5,12 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: 🚚 Get latest code
+    - name: 🚚 Get latest code and install npm
       uses: actions/checkout@v2.3.2
+      uses: actions/setup-node@v2
+      with:
+        node-version: '12'
+      - run: npm install
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
