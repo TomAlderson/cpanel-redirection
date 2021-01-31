@@ -1,0 +1,27 @@
+@import "./dependencies";
+
+html, body {
+    height: 100%;
+}
+
+.font-size-24 {
+    font-size: 24px;
+}
+
+.wrapper {
+    @extend .container;
+    @extend .h-100;
+}
+
+.content {
+    @extend .row;
+    @extend .h-100;
+}
+
+.message {
+    @extend .col ;
+    @extend .d-flex;
+    @extend .align-self-center;
+    @extend .justify-content-center;
+    @extend .font-size-24;
+}
