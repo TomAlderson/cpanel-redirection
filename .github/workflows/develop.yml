@@ -8,6 +8,7 @@ jobs:
     - name: 🚚 Get latest code
       uses: actions/checkout@v2.3.2
     - run: npm install
+    - run: npm build
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
@@ -16,4 +17,4 @@ jobs:
         username: tomaldyc
         password: ${{ secrets.ftp_password }}
         server-dir: cpanel.tomaldy.com/public/
-        exclude: 
+        local-dir: ./dist/
